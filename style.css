@@ -238,3 +238,52 @@ body {
     height: 396px;
     gap: 24px;
 }
+
+/*  MAIN LAST SECTION  */
+
+
+
+.last-section {
+    width: 1440px;
+    margin-top: 128px;
+    height: 450px;
+    background-image: url("photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.last-section-container{
+    padding-top:170px;
+}
+.last-section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.last-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+#input-field {
+    width: 700px;
+    height: 64px;
+    border: 0;
+}
+
+.last-section-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    padding: 18px 30px;
+    margin-left: 15px;
+}
