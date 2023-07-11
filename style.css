@@ -291,7 +291,8 @@ body {
 }
 .footer-container{
     padding-top: 200px;
-    /* padding-left: 630px; */
+    width: 700px;
+    padding-left: 630px; 
 }
 .footer-title-logo {
     color: #E55473;
