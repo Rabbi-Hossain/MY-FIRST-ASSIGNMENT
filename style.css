@@ -282,15 +282,12 @@ body {
 
 /* footer section styles */
 .footer-container {
-    width: 1922px;
-    height: 449px;
     background-color: #111010;
     margin-top: 128px;
     display: flex;
+    padding: 80px;
 }
 .footer-main{
-    width: 1900px;
-    margin: auto;
 }
 
 .footer-title {
@@ -323,4 +320,5 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    margin-left: 650px;
 }
