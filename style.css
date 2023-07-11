@@ -1,4 +1,4 @@
-/* common css styles */
+/* common shared styles */
 * {
     margin: 0px;
     padding: 0px;
@@ -6,13 +6,7 @@
 
 body {
     font-family: 'Lato';
-    /* font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif; */
 }
-
-/* COMMON */
-/* COMMON */
-/* COMMON */
 
 .featured {
     max-width: 1400px;
@@ -20,12 +14,11 @@ body {
     text-align: center;
 }
 
+.featured-detailes{
+    width: 650px;
+    margin: auto;
+}
 
-
-
-/* COMMON */
-/* COMMON */
-/* COMMON */
 
 
 /* this is a header styles*/
@@ -77,10 +70,6 @@ body {
 /* Feature section styles */
 
 
-.featured-detailes {
-    width: 650px;
-    margin: auto;
-}
 
 .featured-title {
     color: #272727;
@@ -277,6 +266,7 @@ body {
     height: 64px;
     border: 0;
     padding-left:20px;
+    
 }
 
 .last-section-btn {
