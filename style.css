@@ -285,7 +285,7 @@ body {
     background-color: #111010;
     margin-top: 128px;
     display: flex;
-    padding: 80px;
+    padding:100px 80px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -314,6 +314,7 @@ body {
     line-height: 30px;
     margin-bottom: 30px;
     width: 630px;
+    margin-bottom:32px;
 }
 
 .footer-last-paragraph {
