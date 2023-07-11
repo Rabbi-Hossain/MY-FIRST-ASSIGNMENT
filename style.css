@@ -282,7 +282,7 @@ body {
 
 /* footer section styles */
 .footer-section {
-    max-width: 2000px;
+    width: 2000px;
     height: 449px;
     background: #111010;
     text-align: center;
@@ -292,7 +292,7 @@ body {
 .footer-container{
     padding-top: 200px;
     width: 35%;
-    padding-left: 650px;
+    padding-left: 630px;
 }
 .footer-title-logo {
     color: #E55473;
