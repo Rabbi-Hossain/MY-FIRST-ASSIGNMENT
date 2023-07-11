@@ -284,7 +284,7 @@ body {
 .footer-container {
     width: 1922px;
     height: 449px;
-    background: #111010;
+    background-color: #111010;
     margin-top: 128px;
     display: flex;
 }
