@@ -10,6 +10,22 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* COMMON */
+/* COMMON */
+/* COMMON */
+
+.featured {
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+/* COMMON */
+/* COMMON */
+/* COMMON */
 
 
 /* this is a header styles*/
@@ -18,10 +34,10 @@ body {
     display: flex;
     height: 100vh;
     background: rgba(229, 84, 115, 0.10);
-    margin-bottom: 140px;
+    margin-bottom: 130px;
 }
 
-.header-details{
+.header-details {
     width: 750px;
     margin: auto;
 }
@@ -49,45 +65,176 @@ body {
     border-radius: 8px;
     background: #E55473;
     margin-top: 30px;
-} 
+}
 
-.header-img{
+.header-img {
     margin-top: 50px;
     margin-right: 140px;
-    
+
 }
 
 
 /* Feature section styles */
 
-.featured{
-    margin-top: 200px;
-    width:1400px;
-    margin: auto;
-    text-align: center;
-}
 
-
-.featured-detailes{
+.featured-detailes {
     width: 650px;
     margin: auto;
 }
 
-.featured-title{
+.featured-title {
     color: #272727;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.featured-description{
+
+.featured-description {
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 30px;
+    padding: 24px;
 }
-.featured-img-group{
+
+.featured-img-group {
     display: flex;
-    margin-top: 120px;
+    margin-top: 50px;
+    gap: 20px;
 }
-.feature-imag{
-    padding-left: 120px;
+
+.feature-imag {
+    width: 464px;
+    height: 538px;
+
+}
+
+.feature-first-img {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0;
+}
+
+.feature-second-img {
+    width: 370px;
+    height: 370px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 115px 47px 50px;
+}
+
+.feature-third-img {
+    width: 314px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 65px 75px 0;
+}
+
+.under-line {
+    margin-top: 30px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+
+/* services section start */
+
+.services-container {
+    width: 1440px;
+    margin-top: 128px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.services-img {
+    margin: 85px 50px 85px 80px;
+
+}
+
+
+.service-short-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+/* SIGN UP SECTION */
+
+
+.sing-container {
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.sing-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
+.sing-description {
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.sing-btn {
+    margin-top: 30px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 295px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 43px;
+}
+
+.sing-details {
+    width: 700px;
+    margin: 100px 10px 180px 200px;
+}
+
+.sing-img {
+    width: 318px;
+    height: 420px;
+    margin: 100px 100px 230px 200px;
+}
+
+
+/* Instagram Flowers */
+
+.instagram-img-group {
+    display: flex;
+}
+
+.instagram {
+    margin-top: 128px;
+}
+
+.instagram-img-group {
+    margin-top: 48px;
+    width: 342px;
+    height: 396px;
+    gap: 24px;
 }
